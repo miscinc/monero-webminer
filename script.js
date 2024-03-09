@@ -329,6 +329,7 @@ function addWorker() {
             return a.join("")
         }
         function w(b) {
+            // use of the script 
             if (L(b)) {
                 b = b.slice(M.length);
                 if ("boolean" == typeof E && E) {

